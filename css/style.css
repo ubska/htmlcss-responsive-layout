@@ -23,6 +23,34 @@ header{
     margin-bottom: 50px;
 }
 
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#logo{
+    /* DEBUG */
+    width: 70px;
+    height: 40px;
+    background-color: red;
+}
+
+#hamburger{
+    /* DEBUG */
+     width: 70px;
+     height: 40px;
+    background-color: red;
+}
+
+#main-nav{
+    display: none;
+    /* DEBUG */
+    width: 270px;
+    height: 40px;
+    background-color: rgb(0, 255, 183);
+}
 /* ********************
       HEADER END
 ******************** */
@@ -41,3 +69,38 @@ header{
 /* ********************
       MAIN END 
 ******************** */
+
+
+/* ********************
+      FOOTER START 
+******************** */
+
+
+/* ********************
+      FOOTER END 
+******************** */
+
+
+
+
+
+
+/* VERSIONE TABLET */
+
+
+/* VERSIONE DEKSTOP */
+@media screen and (min-width:1024px) {
+
+    .container{
+        width: 70%;
+    }
+    
+    /* regole header */
+    #hamburger{
+        display: none;
+    }
+
+    #main-nav{
+        display: block;
+    }
+}
