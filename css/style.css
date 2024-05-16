@@ -72,6 +72,16 @@ header .container{
     margin-bottom: 10px;
 }
 
+.planning{
+    background-color: #9792e4;
+    height: 300px;
+}
+
+.planning .container .col{
+    /* DEBUG */
+    background-color: rgb(23, 181, 34);
+    min-height: 100px;
+}
 /* ********************
       MAIN END 
 ******************** */
@@ -125,5 +135,16 @@ header .container{
 
     #main-nav{
         display: block;
+    }
+
+    /* regole main */
+    .planning .container{
+        display: flex;
+        /* DEBUG */
+        gap: 10px;
+    }
+
+    .planning .container .col{
+        width: calc((100% / 2) - 10px);
     }
 }
