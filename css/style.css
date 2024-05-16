@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* DEBUG */
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: yellow;
+    min-height: 100%;
+}
+
+/* ********************
+      HEADER START 
+******************** */
+header{
+    background-color: #0084fd;
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+/* ********************
+      HEADER END
+******************** */
+
+
+
+/* ********************
+      MAIN START 
+******************** */
+
+#funzionalita{
+    background-color: blueviolet;
+    height: 200px;
+}
+
+/* ********************
+      MAIN END 
+******************** */
