@@ -63,7 +63,13 @@ header .container{
 
 #funzionalita{
     background-color: blueviolet;
-    height: 200px;
+    height: 100%;
+}
+
+.col{
+    background-color: #b5ddff;
+    min-height: 100px;
+    margin-bottom: 10px;
 }
 
 /* ********************
@@ -86,6 +92,23 @@ header .container{
 
 
 /* VERSIONE TABLET */
+@media all and (min-width:768px) {
+    
+    #funzionalita .container{
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #funzionalita .col{
+        width: calc((100% / 3) - 10px);
+    }
+
+    #funzionalita .col.big{
+        width: calc(((100% / 3) * 2) - 10px);
+    }
+}
 
 
 /* VERSIONE DEKSTOP */
