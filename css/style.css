@@ -82,6 +82,7 @@ header .container{
     background-color: rgb(23, 181, 34);
     min-height: 100px;
 }
+
 /* ********************
       MAIN END 
 ******************** */
@@ -117,6 +118,18 @@ header .container{
 
     #funzionalita .col.big{
         width: calc(((100% / 3) * 2) - 10px);
+    }
+
+    .testimonials .container .col{
+        display: flex;
+        justify-content: center;
+        /* DEBUG */
+
+    }
+
+    .testimonials .container .item{
+        background-color: blue;
+        min-width: 100px;
     }
 }
 
