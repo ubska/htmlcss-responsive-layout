@@ -101,6 +101,10 @@ header .container{
       FOOTER START 
 ******************** */
 
+footer{
+    background-color: #333333;
+}
+
 
 /* ********************
       FOOTER END 
