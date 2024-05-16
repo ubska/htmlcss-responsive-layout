@@ -83,6 +83,10 @@ header .container{
     min-height: 100px;
 }
 
+.benefits{
+    background-color: #9792e4;
+    min-height: 300px;
+}
 /* ********************
       MAIN END 
 ******************** */
@@ -131,6 +135,22 @@ header .container{
         background-color: blue;
         min-width: 100px;
     }
+
+    .benefits .container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .benefits .container .col{
+        width: calc((100% / 2) - 10px);
+    }
+
+    .about-us .container{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
 }
 
 
@@ -160,4 +180,8 @@ header .container{
     .planning .container .col{
         width: calc((100% / 2) - 10px);
     }
+
+    .benefits .container .col {
+         width: calc((100% / 3) - 10px);
+     }
 }
